@@ -7,8 +7,8 @@ from tqdm import tqdm
 import traceback
 from concurrent.futures import ThreadPoolExecutor
 
-BASELINE = "OURS-wo-EL"     #### ["NaiveGeneration", "StandardRAG", "TimeRAG", "HyperGraphRAG", "OURS", "OURS-wo-CL", "OURS-wo-IL", "OURS-wo-EL"]
-MODEL = "gemini-2.5-flash"         #### ["gpt-4o-mini", "deepseek-r1", "gemini-2.5-flash"]
+BASELINE = " "    
+MODEL = " "         
 
 METHOD = f"{BASELINE}_{MODEL}"
 def evaluate_one(d):
