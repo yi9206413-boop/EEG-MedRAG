@@ -18,7 +18,7 @@ pip install -r requirements.txt(https://github.com/user-attachments/files/218876
 Then, we need to set openai api key in openai_api_key.txt file. (We use www.apiyi.com for LLM server.)
 
 Last, we need download the contexts and datasets from https://drive.google.com/drive/folders/1tPjD1Om2qp-fSPlxbwBP5RlDHw4LaRRm?usp=sharing, https://physionet.org/content/chbmit/1.0.0/ and https://openneuro.org/ and put them in the contexts and datasets folders.
-
+###
 EEG-MedRAG/
     ├── contexts/                    
         └── knowledge_contexts.json/    
@@ -32,6 +32,8 @@ EEG-MedRAG/
         ├── Psychiatric/
         └── questions.json/
     └── openai_api_key.txt 
+
+###
 
 Step1. Knowledge HyperGraph Construction
 nohup python script_insert.py --cls hypertension > result_hypertension_insert.log 2>&1 &
