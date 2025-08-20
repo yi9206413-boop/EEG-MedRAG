@@ -18,19 +18,20 @@ pip install -r requirements.txt(https://github.com/user-attachments/files/218876
 Then, we need to set openai api key in openai_api_key.txt file. (We use www.apiyi.com for LLM server.)
 
 Last, we need download the contexts and datasets from https://drive.google.com/drive/folders/1tPjD1Om2qp-fSPlxbwBP5RlDHw4LaRRm?usp=sharing, https://physionet.org/content/chbmit/1.0.0/ and https://openneuro.org/ and put them in the contexts and datasets folders.
+
 ###
 EEG-MedRAG/
     ├── contexts/                    
         └── knowledge_contexts.json/    
     ├── datasets/           
-        ├── Epilepsy EEG/                                 
-        ├── Parkinson EEG/                           
-        ├── Alzheime EEG/                            
-        ├── Depression /                             
-        ├── Sleep deprivation/
-        ├──Mild TBI /
-        ├── Psychiatric/
-        └── questions.json/
+        ├── Epilepsy EEG                                
+        ├── Parkinson EEG                           
+        ├── Alzheime EEG                           
+        ├── Depression EEG                              
+        ├── Sleep deprivation EEG
+        ├──Mild TBI EEG
+        ├── Psychiatric EEG
+        └── questions.json
     └── openai_api_key.txt 
 
 ## Quick Start
@@ -56,7 +57,7 @@ python retrieval/retrieval_step3.py --output retrieval_step3.json
 python retrieval/retrieval_step4.py --output retrieval_step4.json  
 
 
-
+## BibTex
 If you find this work is helpful for your research, please cite:
 @misc{wang2025eegmedragenhancingeegbasedclinical,
       title={EEG-MedRAG: Enhancing EEG-based Clinical Decision-Making via Hierarchical Hypergraph Retrieval-Augmented Generation}, 
