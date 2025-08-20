@@ -32,7 +32,7 @@ EEG-MedRAG/
         ├──Mild TBI EEG
         ├── Psychiatric EEG
         └── questions.json
-    └── openai_api_key.txt 
+    ├── openai_api_key.txt 
 
 ## Quick Start
 
