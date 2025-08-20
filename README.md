@@ -4,13 +4,15 @@ EEG-MedRAG:EEG-MedRAG: Enhancing EEG-based Clinical Decision-Making via Hierarch
 
 ##  Overview 
 
-![](./figs/F1.png)
+![](./figs/[F3.pdf](https://github.com/user-attachments/files/21887621/F3.pdf)
+F1.png)
 
 ## Environment Setup
 ```bash
 conda create python=3.11
 conda activate ptthon3.11
-pip install -r requirements.txt
+pip install -r requirements.txt(https://github.com/user-attachments/files/21887616/F3.pdf)
+
 ```
 
 Then, we need to set openai api key in openai_api_key.txt file. (We use www.apiyi.com for LLM server.)
