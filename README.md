@@ -22,17 +22,18 @@ Last, we need download the contexts and datasets from https://drive.google.com/d
 
 EEG-MedRAG/
 ├── contexts/
-│ └── knowledge_contexts.json
+│   └── knowledge_contexts.json
 ├── datasets/
-│ ├── Epilepsy EEG
-│ ├── Parkinson EEG
-│ ├── Alzheime EEG
-│ ├── Depression EEG
-│ ├── Sleep deprivation EEG
-│ ├── Mild TBI EEG
-│ ├── Psychiatric EEG
-│ └── questions.json
+│   ├── Epilepsy EEG/
+│   ├── Parkinson EEG/
+│   ├── Alzheimer EEG/
+│   ├── Depression EEG/
+│   ├── Sleep deprivation EEG/
+│   ├── Mild TBI EEG/
+│   ├── Psychiatric EEG/
+│   └── questions.json
 └── openai_api_key.txt
+
 
 ## Quick Start
 
