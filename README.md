@@ -21,7 +21,7 @@ Last, we need download the contexts and datasets from https://drive.google.com/d
 
 EEG-MedRAG/
     ├── contexts/                    
-        └── knowledge_contexts.json    
+        └── knowledge_contexts.json/    
     ├── datasets/           
         ├── Epilepsy EEG/                                 
         ├── Parkinson EEG/                           
@@ -30,7 +30,7 @@ EEG-MedRAG/
         ├── Sleep deprivation/
         ├──Mild TBI /
         ├── Psychiatric/
-        └── questions.json
+        └── questions.json/
     └── openai_api_key.txt 
 
 Step1. Knowledge HyperGraph Construction
