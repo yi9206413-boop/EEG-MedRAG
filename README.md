@@ -33,7 +33,7 @@ EEG-MedRAG/
         └── questions.json/
     └── openai_api_key.txt 
 
-#### Quick Start
+## Quick Start
 
 Step1. Knowledge HyperGraph Construction
 nohup python script_insert.py --cls hypertension > result_hypertension_insert.log 2>&1 &
