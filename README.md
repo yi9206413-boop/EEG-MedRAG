@@ -17,7 +17,7 @@ pip install -r requirements.txt(https://github.com/user-attachments/files/218876
 
 Then, we need to set openai api key in openai_api_key.txt file. (We use www.apiyi.com for LLM server.)
 
-Last, we need download the contexts and datasets from https://physionet.org/content/chbmit/1.0.0/ and https://openneuro.org/ and put them in the contexts and datasets folders.
+Last, we need download the contexts and datasets from https://drive.google.com/drive/folders/1tPjD1Om2qp-fSPlxbwBP5RlDHw4LaRRm?usp=sharing, https://physionet.org/content/chbmit/1.0.0/ and https://openneuro.org/ and put them in the contexts and datasets folders.
 
 EEG-MedRAG/
     ├── contexts/                    
@@ -55,8 +55,21 @@ python retrieval/retrieval_step4.py --output retrieval_step4.json
 
 
 
+If you find this work is helpful for your research, please cite:
+@misc{wang2025eegmedragenhancingeegbasedclinical,
+      title={EEG-MedRAG: Enhancing EEG-based Clinical Decision-Making via Hierarchical Hypergraph Retrieval-Augmented Generation}, 
+      author={Yi Wang and Haoran Luo and Lu Meng},
+      year={2025},
+      eprint={2508.13735},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2508.13735}, 
+}
+
+
+
 
 
 ## Acknowledgement
 
-This repo benefits from [LightRAG](https://github.com/HKUDS/LightRAG), [Text2NKG](https://github.com/LHRLAB/Text2NKG), and [HAHE](https://github.com/LHRLAB/HAHE).  Thanks for their wonderful works.
+This repo benefits from [HypergraphRAG](https://github.com/LHRLAB/HyperGraphRAG), [DHGE](https://github.com/LHRLAB/DHGE).  Thanks for their wonderful works.
