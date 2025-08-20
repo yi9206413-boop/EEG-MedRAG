@@ -1,4 +1,4 @@
-# EEG-MedRag
+# EEG-MedRAG
 
 EEG-MedRAG:EEG-MedRAG: Enhancing EEG-based Clinical Decision-Making via Hierarchical Hypergraph Retrieval-Augmented Generation [[paper](https://arxiv.org/abs/2503.21322)]
 
