@@ -60,9 +60,11 @@ python retrieval/retrieval_step2.py --output retrieval_step2.json
 python retrieval/retrieval_step3.py --output retrieval_step3.json
 python retrieval/retrieval_step4.py --output retrieval_step4.json  
 
-
 ## BibTex
+
 If you find this work is helpful for your research, please cite:
+
+```bibtex
 @misc{wang2025eegmedragenhancingeegbasedclinical,
       title={EEG-MedRAG: Enhancing EEG-based Clinical Decision-Making via Hierarchical Hypergraph Retrieval-Augmented Generation}, 
       author={Yi Wang and Haoran Luo and Lu Meng},
@@ -72,6 +74,9 @@ If you find this work is helpful for your research, please cite:
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2508.13735}, 
 }
+
+```
+
 
 
 
