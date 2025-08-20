@@ -2,9 +2,6 @@ import json
 import hashlib
 from collections import defaultdict
 
-# 输入输出路径
-input_path = '/home/luohaoran/wy/expr/instance_layer/hyperedge_list.json'
-output_path = '/home/luohaoran/wy/expr/instance_layer/text_entity_list.json'
 
 def entity_hash(s):
     return hashlib.sha256(str(s).encode('utf-8')).hexdigest()
