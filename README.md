@@ -20,41 +20,19 @@ Then, we need to set openai api key in openai_api_key.txt file. (We use www.apiy
 Last, we need download the contexts and datasets from https://drive.google.com/drive/folders/1tPjD1Om2qp-fSPlxbwBP5RlDHw4LaRRm?usp=sharing, https://physionet.org/content/chbmit/1.0.0/ and https://openneuro.org/ and put them in the contexts and datasets folders.
 
 
-HyperGraphRAG/
-└── evaluation/
-    ├── contexts/   
-        ├── hypertension_contexts.json   
-        ├── agriculture_contexts.json    
-        ├── cs_contexts.json                  
-        ├── legal_contexts.json                    
-        └── mix_contexts.json    
-    ├── datasets/           
-        ├── hypertension/                             
-            └── questions.json     
-        ├── agriculture/                            
-            └── questions.json 
-        ├── cs/                            
-            └── questions.json 
-        ├── legal/                             
-            └── questions.json 
-        └── mix/                              
-            └── questions.json
-    └── openai_api_key.txt                               
-
-###
 EEG-MedRAG/
-    └──  contexts/                    
-        └── knowledge_contexts.json/    
-    └── datasets/           
-        ├── Epilepsy EEG                                
-        ├── Parkinson EEG                           
-        ├── Alzheime EEG                           
-        ├── Depression EEG                              
-        ├── Sleep deprivation EEG
-        ├──Mild TBI EEG
-        ├── Psychiatric EEG
-        └── questions.json
-     └── openai_api_key.txt 
+├── contexts/
+│ └── knowledge_contexts.json
+├── datasets/
+│ ├── Epilepsy EEG
+│ ├── Parkinson EEG
+│ ├── Alzheime EEG
+│ ├── Depression EEG
+│ ├── Sleep deprivation EEG
+│ ├── Mild TBI EEG
+│ ├── Psychiatric EEG
+│ └── questions.json
+└── openai_api_key.txt
 
 ## Quick Start
 
