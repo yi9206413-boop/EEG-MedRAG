@@ -4,8 +4,8 @@ EEG-MedRAG:EEG-MedRAG: Enhancing EEG-based Clinical Decision-Making via Hierarch
 
 ##  Overview 
 
-![](./figs/[F3.pdf](https://github.com/user-attachments/files/21887621/F3.pdf)
-F1.png)
+<img width="765" height="389" alt="b0a11d20-41ba-477b-bba0-cd5dcce5268f" src="https://github.com/user-attachments/assets/47110688-e487-4f3f-9557-7cf40d8f7e9c" />
+
 
 ## Environment Setup
 ```bash
