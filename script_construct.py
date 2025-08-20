@@ -1,7 +1,7 @@
 import os
 import json
 from hypergraphrag import HyperGraphRAG
-os.environ["OPENAI_API_KEY"] = "sk-Z5r1u2Z8Ukz8Ez81F78f4028B4Bc49548bAa22E4E4FaE19e"
+os.environ["OPENAI_API_KEY"] = " "
 
 rag = HyperGraphRAG(working_dir=f"/home/luohaoran/wy/expr/concept_layer")
 
