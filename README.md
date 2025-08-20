@@ -43,9 +43,9 @@ HyperGraphRAG/
 
 ###
 EEG-MedRAG/
-    ├── contexts/                    
+    └──  contexts/                    
         └── knowledge_contexts.json/    
-    ├── datasets/           
+    └── datasets/           
         ├── Epilepsy EEG                                
         ├── Parkinson EEG                           
         ├── Alzheime EEG                           
@@ -54,7 +54,7 @@ EEG-MedRAG/
         ├──Mild TBI EEG
         ├── Psychiatric EEG
         └── questions.json
-    ├── openai_api_key.txt 
+     └── openai_api_key.txt 
 
 ## Quick Start
 
