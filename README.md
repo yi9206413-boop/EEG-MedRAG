@@ -20,6 +20,7 @@ Then, we need to set openai api key in openai_api_key.txt file. (We use www.apiy
 Last, we need download the contexts and datasets from https://drive.google.com/drive/folders/1tPjD1Om2qp-fSPlxbwBP5RlDHw4LaRRm?usp=sharing, https://physionet.org/content/chbmit/1.0.0/ and https://openneuro.org/ and put them in the contexts and datasets folders.
 
 
+<pre>
 EEG-MedRAG/
 ├── contexts/
 │   └── knowledge_contexts.json
@@ -33,6 +34,8 @@ EEG-MedRAG/
 │   ├── Psychiatric EEG/
 │   └── questions.json
 └── openai_api_key.txt
+</pre>
+
 
 
 ## Quick Start
